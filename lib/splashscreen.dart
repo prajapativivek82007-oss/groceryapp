@@ -7,6 +7,7 @@ class Splashscreen extends StatelessWidget {
     return Scaffold(
       body:Stack(
         children: [
+          Text("Splash Screen"),
           Center(
             child: Image.asset("assets/img/Logo.png"),
           ),
